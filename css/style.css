@@ -1,0 +1,199 @@
+html {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: Montserrat, sans-serif;
+}
+
+header {
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    min-height: 50px;
+    width: 100%;
+}
+
+#header-logo {
+    height: 2rem;
+    margin: 1rem;
+    padding-left: 1rem;
+
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#header-logo a {
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+
+    height: 2rem;
+    margin: 1rem;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+nav li {
+    padding: 0 1rem 0.25rem 0rem;
+}
+
+nav li a {
+    color: black;
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: center;
+
+    padding: 10px;
+
+    width: 100%;
+}
+
+#container {
+    border: solid 2px hsl(0, 0%, 0%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: min-content;
+    width: min(95%, 400px);
+    padding: 1rem 1rem 0 1rem;
+}
+
+.container-title {
+    margin-bottom: 0.25rem;
+    font-weight: 700;
+}
+
+.container-subtitle {
+    margin-bottom: 1rem;
+    font-size: 14px;
+}
+
+#css-option-list-key {
+    margin-top: 0.5rem;
+    font-family: monospace;
+}
+
+#css-option-list {
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+#expand-button {
+    margin-bottom: 2rem;
+}
+
+#expanded-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    min-height: 160vh;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.info-box {
+    background-color: whitesmoke;
+    border: solid 2px black;
+
+    display: flex;
+    flex-direction: column;
+
+    min-height: 255px;
+    width: 225px;
+    margin: 1rem;
+}
+
+.info-title {
+    background-color: var(--teal);
+    border-bottom: 2px solid darkslategray;
+
+    padding: 0.5rem;
+
+    font-weight: 400;
+    text-align: center;
+}
+
+.info-section {
+    padding: 1rem;
+}
+
+.info-section h4 {
+    margin-bottom: 0.5rem;
+}
+
+.info-section a {
+    font-weight: 700;
+    color: black;
+    text-decoration: underline;
+}
+
+.info-section ul {
+    margin-bottom: 2rem;
+    margin-left: 1.5rem;
+}
+
+.info-section ul li {
+    margin-bottom: 0.5rem;
+
+    list-style: disc;
+}
+
+#css-switcher-notes p {
+    margin-bottom: 1.5rem;
+}
+
+#color-key {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-auto-rows: 1fr;
+    gap: 6px 10px;
+}
+
+.color-swatch {
+    height: 24px;
+}
+
+.swatch-label {
+    font-family: monospace;
+    height: 24px;
+    font-size: 18px;
+}
+
+footer {
+    border-top: 2px solid black;
+
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0.5rem;
+
+    width: 100%;
+}
