@@ -1,0 +1,61 @@
+:root {
+    --redx: hsl(359, 81%, 58%);
+    --orange: hsl(20, 74%, 53%);
+    --yellow: hsl(42, 93%, 64%);
+    --green: hsl(94, 42%, 54%);
+    --blue: hsl(198, 61%, 39%);
+    --purple: #623d8f;
+    --teal: #008a7a;
+    --teal: hsl(173, 100%, 27%);
+    --grey: hsl(0, 0%, 72%);
+    --gradient1: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+.redx {
+    background-color: var(--redx);
+}
+.orange {
+    background-color: var(--orange);
+}
+.yellow {
+    background-color: var(--yellow);
+}
+.green {
+    background-color: var(--green);
+}
+.blue {
+    background-color: var(--blue);
+}
+.purple {
+    background-color: var(--purple);
+}
+.pink {
+    background-color: pink;
+}
+.teal {
+    background-color: var(--teal);
+}
+.grey {
+    background-color: var(--grey);
+}
+
+.no-color-repeating {
+    background: rgb(255, 255, 255);
+
+    background: repeating-linear-gradient(135deg, #fff, #fff 7px, #f00 7px, #f00 10px);
+}
+
+.no-color {
+    background: rgb(255, 255, 255);
+
+    background: rgb(255, 255, 255);
+    background: linear-gradient(155deg, rgba(255, 255, 255, 0) 45%, rgba(255, 0, 0, 1) 45%, rgba(255, 0, 0, 1) 50%, rgba(255, 0, 0, 1) 55%, rgba(255, 255, 255, 0) 55%);
+
+    border: 2px solid #888;
+}
+
+/* Global */
+
+#container {
+    background-color: var(--grey);
+}
