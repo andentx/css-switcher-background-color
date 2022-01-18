@@ -5,6 +5,7 @@
     --green: hsl(94, 42%, 54%);
     --blue: hsl(198, 61%, 39%);
     --purple: #623d8f;
+    --pink: rgb(255, 192, 203);
     --teal: #008a7a;
     --teal: hsl(173, 100%, 27%);
     --grey: hsl(0, 0%, 72%);
@@ -30,7 +31,7 @@
     background-color: var(--purple);
 }
 .pink {
-    background-color: pink;
+    background-color: var(--pink);
 }
 .teal {
     background-color: var(--teal);
