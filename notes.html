@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Set character encoding -->
+        <meta charset="UTF-8" />
+
+        <!-- Set viewport defaults -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Set page info -->
+        <title>CSS Switcher - HTML and Body Height</title>
+        <meta name="description" content="Test different methods of setting height on the html and body elements" />
+        <meta name="author" content="Andrew D" />
+
+        <!-- Set page info for Open Graph -->
+        <meta property="og:title" content="CSS Switcher - HTML and Body Height" />
+        <meta property="og:description" content="Test different methods of setting height on the html and body elements" />
+        <meta property="og:image" content="https://andentx.github.io/css-switcher-html-and-body-height/images/og-screenshot.png" />
+        <meta property="og:image:alt" content="Screenshot of CSS Switcher website" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://andentx.github.io/css-switcher-html-and-body-height" />
+
+        <!-- Set page info for Twitter Cards -->
+        <meta name="twitter:card" content="summary" />
+
+        <!-- Set theme colors -->
+        <meta name="theme-color" content="#623d8f" />
+
+        <!-- Link to CSS stylesheets -->
+        <link rel="stylesheet" href="css/reset-minimal.css" />
+        <link rel="stylesheet" href="css/color.css" />
+        <link rel="stylesheet" href="css/style.css" />
+
+        <!-- Link to CSS Option -->
+        <link rel="stylesheet" href="css/optionG.css" />
+
+        <!-- Add google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <h1 id="header-logo"><a href="index.html">Header</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="notes.html">Notes</a></li>
+                    <li><a href="">Code</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <article id="container">
+                <h2 class="container-title">CSS Switcher</h2>
+                <p class="container-subtitle">for background color</p>
+
+                <label for="css-option-list">Choose CSS:</label>
+                <select name="css-options" id="css-option-list" onchange="location = this.value">
+                    <option value="option0.html">0 - default</option>
+                    <option value="optionA.html">A - html: purple;</option>
+                    <option value="optionB.html">B - body: purple;</option>
+                    <option value="optionC.html">C - header: purple;</option>
+                    <option value="optionD.html">D - main: purple;</option>
+                    <option value="optionE.html">E - footer: purple;</option>
+                    <option value="optionF.html">F - theme-color: purple;</option>
+                    <option value="optionG.html">G - theme-color, body: purple;</option>
+                    <option value="optionH.html">H - theme-color, header: purple;</option>
+                    <option value="optionJ.html">J - theme-color, main: purple;</option>
+                    <option value="optionK.html">K - theme-color, header, footer: purple;</option>
+                    <option value="optionL.html">L - theme-color, header, main, footer: purple;</option>
+                </select>
+
+                <div class="info-box">
+                    <h3 class="info-title">Notes</h3>
+                    <div class="info-section" id="css-switcher-notes">
+                        <h4>Description</h4>
+                        <p></p>
+                        <h4>Purpose</h4>
+                        <p></p>
+                        <h4>How to Use</h4>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <h4>References</h4>
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </main>
+
+        <footer>
+            <p>This is the footer</p>
+        </footer>
+
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
