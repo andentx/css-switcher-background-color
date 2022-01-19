@@ -58,20 +58,19 @@
                 <label for="css-option-list">Choose CSS:</label>
 
                 <select name="css-options" id="css-option-list" onchange="location = this.value">
-                    <option value="optionD.html">D - main: purple;</option>
-                    <option value="optionE.html">E - footer: purple;</option>
-                    <option value="optionF.html">F - theme-color: purple;</option>
-                    <option value="optionG.html">G - theme-color, body: purple;</option>
-                    <option value="optionH.html">H - theme-color, header: purple;</option>
-                    <option value="optionJ.html">J - theme-color, main: purple;</option>
-                    <option value="optionK.html">K - theme-color, header, footer: purple;</option>
-                    <option value="optionL.html">L - theme-color, header, main, footer: purple;</option>
-                    <option value="optionM.html">M - theme-color, body, header, footer: purple; main: pink;</option>
-                    <option value="optionN.html">N - theme-color, body: purple; header, main, footer: pink;</option>
+                    <option value="optionD.html">D - main</option>
+                    <option value="optionE.html">E - footer</option>
+                    <option value="optionF.html">F - theme-color</option>
+                    <option value="optionG.html">G - theme-color; body</option>
+                    <option value="optionH.html">H - theme-color; header</option>
+                    <option value="optionJ.html">J - theme-color; main</option>
+                    <option value="optionK.html">K - theme-color; header; footer</option>
+                    <option value="optionL.html">L - theme-color; header; main; footer</option>
+                    <option value="optionM.html">M - theme-color; body; header; main; footer</option>
                     <option value="option0.html">0 - default</option>
-                    <option value="optionA.html">A - html: purple;</option>
-                    <option value="optionB.html">B - body: purple;</option>
-                    <option value="optionC.html">C - header: purple;</option>
+                    <option value="optionA.html">A - html</option>
+                    <option value="optionB.html">B - body</option>
+                    <option value="optionC.html">C - header</option>
                 </select>
 
                 <button id="expand-button" onclick="handleExpandedSection()">More Info</button>
@@ -102,8 +101,17 @@
                         <div class="info-section" id="applied-css-notes">
                             <h4>description</h4>
                             <ul>
-                                <li></li>
-                                <li></li>
+                                <li>color only applied to main element</li>
+                            </ul>
+                            <h4>safari 15 bar</h4>
+                            <ul>
+                                <li>default color</li>
+                            </ul>
+                            <h4>elastic scroll</h4>
+                            <ul>
+                                <li><b>safari:</b> default color</li>
+                                <li><b>chrome:</b> default color</li>
+                                <li><b>firefox:</b> default color</li>
                             </ul>
                         </div>
                     </div>

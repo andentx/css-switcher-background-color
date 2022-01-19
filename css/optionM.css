@@ -1,12 +1,12 @@
 body {
-    background-color: var(--purple);
+    background-color: var(--redx);
 }
 header {
-    background-color: var(--purple);
-}
-main {
     background-color: var(--pink);
 }
+main {
+    background-color: var(--green);
+}
 footer {
-    background-color: var(--purple);
+    background-color: var(--blue);
 }
