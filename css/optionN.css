@@ -1,0 +1,12 @@
+body {
+    background-color: var(--purple);
+}
+header {
+    background-color: var(--pink);
+}
+main {
+    background-color: var(--pink);
+}
+footer {
+    background-color: var(--pink);
+}
