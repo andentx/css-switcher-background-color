@@ -1,5 +1,5 @@
 :root {
-    --redx: hsl(359, 81%, 58%);
+    --red: hsl(359, 81%, 58%);
     --orange: hsl(20, 74%, 53%);
     --yellow: hsl(42, 93%, 64%);
     --green: hsl(94, 42%, 54%);
@@ -12,8 +12,8 @@
     --gradient1: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
 }
 
-.redx {
-    background-color: var(--redx);
+.red {
+    background-color: var(--red);
 }
 .orange {
     background-color: var(--orange);
