@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <!-- Set page info -->
-        <title>A</title>
+        <title>0</title>
         <meta name="description" content="Test different methods of setting background color" />
         <meta name="author" content="Andrew D" />
 
@@ -27,12 +27,12 @@
         <!-- Set theme colors -->
 
         <!-- Link to CSS stylesheets -->
-        <link rel="stylesheet" href="css/reset-minimal.css" />
-        <link rel="stylesheet" href="css/color.css" />
-        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="../css/reset-minimal.css" />
+        <link rel="stylesheet" href="../css/color.css" />
+        <link rel="stylesheet" href="../css/style.css" />
 
         <!-- Link to CSS Option -->
-        <link rel="stylesheet" href="css/optionA.css" />
+        <link rel="stylesheet" href="../css/option0.css" />
 
         <!-- Add google font -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -41,10 +41,10 @@
     </head>
     <body>
         <header>
-            <h1 id="header-logo"><a href="index.html">Header</a></h1>
+            <h1 id="header-logo"><a href="../index.html">Header</a></h1>
             <nav>
                 <ul>
-                    <li><a href="notes.html">Notes</a></li>
+                    <li><a href="../notes.html">Notes</a></li>
                     <li><a href="">Code</a></li>
                 </ul>
             </nav>
@@ -58,6 +58,7 @@
                 <label for="css-option-list">Choose CSS:</label>
                 <p id="css-option-list-key"></p>
                 <select name="css-options" id="css-option-list" onchange="location = this.value">
+                    <option value="option0.html">0 - default</option>
                     <option value="optionA.html">A - html: purple;</option>
                     <option value="optionB.html">B - body: purple;</option>
                     <option value="optionC.html">C - header: purple;</option>
@@ -70,7 +71,6 @@
                     <option value="optionK.html">K - theme-color, header, footer: purple;</option>
                     <option value="optionL.html">L - theme-color, header, main, footer: purple;</option>
                     <option value="optionM.html">M - theme-color, body, header, footer: purple; main: pink;</option>
-                    <option value="option0.html">0 - default</option>
                 </select>
 
                 <button id="expand-button" onclick="handleExpandedSection()">More Info</button>
@@ -79,7 +79,7 @@
                     <div class="info-box">
                         <h3 class="info-title">Key</h3>
                         <div class="info-section" id="color-key">
-                            <div class="color-swatch purple"></div>
+                            <div class="color-swatch no-color"></div>
                             <p class="swatch-label">html</p>
                             <div class="color-swatch no-color"></div>
                             <p class="swatch-label">body</p>
@@ -114,6 +114,6 @@
             <p>This is the footer</p>
         </footer>
 
-        <script src="js/scripts.js"></script>
+        <script src="../js/scripts.js"></script>
     </body>
 </html>
