@@ -79,7 +79,7 @@ main {
     align-items: center;
 
     height: min-content;
-    width: min(95%, 400px);
+    width: min(95%, 600px);
     padding: 1rem 1rem 0 1rem;
 }
 
@@ -125,7 +125,7 @@ main {
     flex-direction: column;
 
     min-height: 255px;
-    width: 225px;
+    width: 90%;
     margin: 1rem;
 }
 
@@ -170,13 +170,14 @@ main {
 
 #color-key {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 48px 1fr;
     grid-auto-rows: 1fr;
     gap: 6px 10px;
 }
 
 .color-swatch {
     height: 24px;
+    width: 48px;
 }
 
 .swatch-label {
